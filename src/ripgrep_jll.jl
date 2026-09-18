@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("ripgrep")
-JLLWrappers.@generate_main_file("ripgrep", UUID("e10fc14b-37cd-5cbc-b289-ad01b12ebaad"))
+JLLWrappers.@generate_main_file("ripgrep", Base.UUID("e10fc14b-37cd-5cbc-b289-ad01b12ebaad"))
 end  # module ripgrep_jll

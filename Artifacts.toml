@@ -1,106 +1,160 @@
 [[ripgrep]]
 arch = "aarch64"
-git-tree-sha1 = "e4d77b70691cdc5ca16d5f0440dfd53a93d645d8"
+git-tree-sha1 = "068c5de0c2357ee28f3eaa141e595eb586b82373"
 os = "macos"
 
     [[ripgrep.download]]
-    sha256 = "a909414b7f6a38b5e218dd0db3f7649b4faeea85918579507c6e301c7d3dc097"
-    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v13.0.0+0/ripgrep.v13.0.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "0c691666595f6bbe8c62ea6995bdac632dfe26c2344021f6a8a5f1beadf8cb9b"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.aarch64-apple-darwin.tar.gz"
 [[ripgrep]]
 arch = "aarch64"
-git-tree-sha1 = "3b4e29e20d68412e830ddd23f1060194d3f67857"
+git-tree-sha1 = "54b5ebb72d6c933bbef8b24e57b336743a42ea2d"
 libc = "glibc"
 os = "linux"
 
     [[ripgrep.download]]
-    sha256 = "e68fd84441782c6337ebc69ce2ab538278f0ff45365482b16488d03a8afdfc36"
-    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v13.0.0+0/ripgrep.v13.0.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "30eabbd661d8262b6cf571b00aef19131829a23e743d27dcff860d5853ff79af"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.aarch64-linux-gnu.tar.gz"
 [[ripgrep]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "e83358f51173338f8064344dc4f7ab2395458bc0"
-libc = "glibc"
-os = "linux"
-
-    [[ripgrep.download]]
-    sha256 = "75380da68963b09a86d9b14f98d8178d046e1020ade89e2378c5ade1b294223f"
-    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v13.0.0+0/ripgrep.v13.0.0.armv6l-linux-gnueabihf.tar.gz"
-[[ripgrep]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "2908cb97b330fabd591355cebb7a875c1537eb25"
-libc = "glibc"
-os = "linux"
-
-    [[ripgrep.download]]
-    sha256 = "063eeb8b418a30652c8e3897263acdf054709a9801a4082b1ab967e8c7efd197"
-    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v13.0.0+0/ripgrep.v13.0.0.armv7l-linux-gnueabihf.tar.gz"
-[[ripgrep]]
-arch = "i686"
-git-tree-sha1 = "af07d8309d2db1c8afa267050151b9d5ac24f2e4"
-libc = "glibc"
-os = "linux"
-
-    [[ripgrep.download]]
-    sha256 = "6d0a8149cb3c955be7d599d56bb7507bc715c6e143076f62453b40f3aac21044"
-    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v13.0.0+0/ripgrep.v13.0.0.i686-linux-gnu.tar.gz"
-[[ripgrep]]
-arch = "i686"
-git-tree-sha1 = "b039973aea2e4e4b6ff7b7eb4a101aafee46af3e"
+arch = "aarch64"
+git-tree-sha1 = "25a725f2d12fd9038e821bc3729de64198930fe6"
 libc = "musl"
 os = "linux"
 
     [[ripgrep.download]]
-    sha256 = "61b6c78b3e2ccbf84001413cfd4c0d6ed891088155ce15e026cc446dee2aafe1"
-    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v13.0.0+0/ripgrep.v13.0.0.i686-linux-musl.tar.gz"
+    sha256 = "ac3dbcc9d2b3782282efa559b405fdc22058961093728994b11f034c860a3d13"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.aarch64-linux-musl.tar.gz"
 [[ripgrep]]
-arch = "powerpc64le"
-git-tree-sha1 = "9118955aec2315cb6ea7f1d722fb5757a2acdedd"
-libc = "glibc"
-os = "linux"
-
-    [[ripgrep.download]]
-    sha256 = "a3b5f15ef380fd09ec8693c507f5b2db902f33a19e6799df823513cd913c7e6e"
-    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v13.0.0+0/ripgrep.v13.0.0.powerpc64le-linux-gnu.tar.gz"
-[[ripgrep]]
-arch = "x86_64"
-git-tree-sha1 = "76222fabdc7a9652dc6cde5495ad2968ff92d751"
-os = "macos"
-
-    [[ripgrep.download]]
-    sha256 = "326c06c63445950c05b545cfd74b79ca29e798b891ad52906694d8f732a5a8d3"
-    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v13.0.0+0/ripgrep.v13.0.0.x86_64-apple-darwin.tar.gz"
-[[ripgrep]]
-arch = "x86_64"
-git-tree-sha1 = "e59b9555e393a4da312657b593b3baf56206b793"
-libc = "glibc"
-os = "linux"
-
-    [[ripgrep.download]]
-    sha256 = "df331b0af3462867e417f3816f721c946813691fa05ec910b2be33dcf54b7940"
-    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v13.0.0+0/ripgrep.v13.0.0.x86_64-linux-gnu.tar.gz"
-[[ripgrep]]
-arch = "x86_64"
-git-tree-sha1 = "f0440f764082614dcfa9476fead5216af31b82ff"
-libc = "musl"
-os = "linux"
-
-    [[ripgrep.download]]
-    sha256 = "5d022d046eed58c8a7b8ee86695cf50931501979b5ce8982c30233f9217554f1"
-    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v13.0.0+0/ripgrep.v13.0.0.x86_64-linux-musl.tar.gz"
-[[ripgrep]]
-arch = "x86_64"
-git-tree-sha1 = "b367cdb062be3e7dc3cfabd3a5445b5ff45a0d3e"
+arch = "aarch64"
+git-tree-sha1 = "4f7afa9e52b29f4c03897ed16143fce50f7b2aa7"
 os = "freebsd"
 
     [[ripgrep.download]]
-    sha256 = "2f95e74057f7d9deea86c68d796a757eafdec19d412643bcdc18047d80c42313"
-    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v13.0.0+0/ripgrep.v13.0.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "1306fa488e0adaf82e5f9bc882c7610ce8881814604de31e7a81f54a09c20faa"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.aarch64-unknown-freebsd.tar.gz"
 [[ripgrep]]
-arch = "x86_64"
-git-tree-sha1 = "06858ab6d9f73bf0daf3ebed89668937821b8b0d"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "121607c1b347e1aa61f3133b776a634f52047e53"
+libc = "glibc"
+os = "linux"
+
+    [[ripgrep.download]]
+    sha256 = "c185fdf4fa7d0559cc01151bae5824af3f5c6418ffa9d9f49c4629f80f607d43"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.armv6l-linux-gnueabihf.tar.gz"
+[[ripgrep]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "2b04ef79dc761e451513c4990f72af90c1cf3780"
+libc = "musl"
+os = "linux"
+
+    [[ripgrep.download]]
+    sha256 = "2908776b0b909647d7961f7593935944a4c0f1101c2e20689c64b4afe120d161"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.armv6l-linux-musleabihf.tar.gz"
+[[ripgrep]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "dc0e8fbcbf613e9eb8a992fabe54adfaeec0bf70"
+libc = "glibc"
+os = "linux"
+
+    [[ripgrep.download]]
+    sha256 = "2ca7ac12d437a130b531f7a02fae6a3778ba80c8af65017ef883d96c20d5c439"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.armv7l-linux-gnueabihf.tar.gz"
+[[ripgrep]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "3db359836d44013a0c8f8ac371b79e9740533211"
+libc = "musl"
+os = "linux"
+
+    [[ripgrep.download]]
+    sha256 = "dc0ac35a4f5eff63b5c7d6687d4224328f38b88200142d2e97bf34fcfd854ea8"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.armv7l-linux-musleabihf.tar.gz"
+[[ripgrep]]
+arch = "i686"
+git-tree-sha1 = "6b2a24ee0c2ee2ddb601397a6a0cedce3aa3c222"
+libc = "glibc"
+os = "linux"
+
+    [[ripgrep.download]]
+    sha256 = "894d2db2195f79aaf40459df7fa8f1d8df5c66927740c14ca41f760f91093514"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.i686-linux-gnu.tar.gz"
+[[ripgrep]]
+arch = "i686"
+git-tree-sha1 = "74e4f61a465cfc3acc54a9afb74793f5a398df2a"
+libc = "musl"
+os = "linux"
+
+    [[ripgrep.download]]
+    sha256 = "47993704c24cb791f10ef0c7f9570e18d7d1b71003ffcef8e22e60c0c39feeff"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.i686-linux-musl.tar.gz"
+[[ripgrep]]
+arch = "i686"
+git-tree-sha1 = "721da52a6ba155f1cc0862b15863bf75c879a415"
 os = "windows"
 
     [[ripgrep.download]]
-    sha256 = "8a6d9140de50f2377b0e31f7731b874d16e9c8e20a25241413af4a1fc22add32"
-    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v13.0.0+0/ripgrep.v13.0.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "1e5f1f6d02819365a81de528fe0a9c494b1670621540ed1c2c5645f55a8f3aed"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.i686-w64-mingw32.tar.gz"
+[[ripgrep]]
+arch = "powerpc64le"
+git-tree-sha1 = "42071c223835c044f664a83a2f6ccba333e2acf6"
+libc = "glibc"
+os = "linux"
+
+    [[ripgrep.download]]
+    sha256 = "b7896b07b4534b0800e9b231b88138da1eb29f910b57fbb0cdde9de0baa4d1a3"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.powerpc64le-linux-gnu.tar.gz"
+[[ripgrep]]
+arch = "riscv64"
+git-tree-sha1 = "9486c2b4c0cd441efb4fac34faec458f021832f5"
+libc = "glibc"
+os = "linux"
+
+    [[ripgrep.download]]
+    sha256 = "743fa16d0c0bf53c7d1dd92a120850a44993baf451379a5cca6f063b4dfef48e"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.riscv64-linux-gnu.tar.gz"
+[[ripgrep]]
+arch = "x86_64"
+git-tree-sha1 = "f23091c138ec0226be801cbd680bc7fd337f0014"
+os = "macos"
+
+    [[ripgrep.download]]
+    sha256 = "82f1d31cc6d04fa2bba0f0b3fb74444354caef3299553afe57646f7b34253daa"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.x86_64-apple-darwin.tar.gz"
+[[ripgrep]]
+arch = "x86_64"
+git-tree-sha1 = "7dfdf111ee291b8ebedc90c44bfd83aeca58b975"
+libc = "glibc"
+os = "linux"
+
+    [[ripgrep.download]]
+    sha256 = "12e5d79e034b6594a42252c8280f436025bcef45350b88dff37f153271b16d47"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.x86_64-linux-gnu.tar.gz"
+[[ripgrep]]
+arch = "x86_64"
+git-tree-sha1 = "4ab78f1cbdb984950952f6ce8bae502860d3477e"
+libc = "musl"
+os = "linux"
+
+    [[ripgrep.download]]
+    sha256 = "5e95255cb9b2ad52317e1586f01a8f2ad2182886bbb47b4fadf5c17b8941edd0"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.x86_64-linux-musl.tar.gz"
+[[ripgrep]]
+arch = "x86_64"
+git-tree-sha1 = "374e29d665f19c0febb5fd979d61fda01f386175"
+os = "freebsd"
+
+    [[ripgrep.download]]
+    sha256 = "b3615598bfde9122188787fba8c52e0cdc46949f567a05e99f44ae4d6b2da558"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.x86_64-unknown-freebsd.tar.gz"
+[[ripgrep]]
+arch = "x86_64"
+git-tree-sha1 = "e0490ed7535353932640de4e44eacc43bfd42ed0"
+os = "windows"
+
+    [[ripgrep.download]]
+    sha256 = "868a24f2342f2a0cb762a20425860630e5b7bf7440a67cddcf7cad857c4ab618"
+    url = "https://github.com/JuliaBinaryWrappers/ripgrep_jll.jl/releases/download/ripgrep-v15.2.0+0/ripgrep.v15.2.0.x86_64-w64-mingw32.tar.gz"
